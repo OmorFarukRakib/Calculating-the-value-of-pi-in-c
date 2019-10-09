@@ -27,7 +27,7 @@ int main()
          num2 = floor(1000*pie)/1000;
          num3 = floor(10000*pie)/10000;
          num4 = floor(100000*pie)/100000;
-         //To understand why we used num1-4, comment out the following line and see the output.
+         //To understand why we used num1-4, un-comment out the following line and see the output.
         //printf("%f--%f--%f--%f", num1, num2, num3, num4);
         if(num1==3.140000f && a1==0)
         {
