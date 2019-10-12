@@ -47,7 +47,8 @@ int main()
         }
         printf("Term %d: ",c);
         printf("%f\n",pie);
-        if(a1 != 0 && a2 != 0 && a3 != 0 && a4 != 0)
+        if(a1 != 0 && a2 != 0 && a3 != 0 && a4 != 0)  // a1!=0 means already we get the first 3.14 value.. 
+                                                      // if all a is != 0 then no more calculation is needed hence break the loop.
         {
             break;
         }
